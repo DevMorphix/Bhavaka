@@ -328,10 +328,10 @@ a:focus {
   margin-top: 15px;
 }
 
-.slider_section .detail-box .slider-link {
+.slider-link {
   display: inline-block;
   padding: 10px 45px;
-  background-color: transparent;
+  /* background-color: #fd9c6b; */
   color: #fd9c6b;
   border-radius: 5px;
   border: 1px solid #fd9c6b;
@@ -339,10 +339,13 @@ a:focus {
   transition: all .2s;
   margin-top: 35px;
 }
-
-.slider_section .detail-box .slider-link:hover {
+.slider-link a{
+  color: #fd9c6b;
+}
+.slider-link:hover {
   background-color: #fd9c6b;
   color: #ffffff;
+  text-emphasis-color: #fff;
 }
 
 
@@ -1013,8 +1016,8 @@ a:focus {
 }
 /*# sourceMappingURL=style.css.map */
 
-.bgset{
-  background-image:url(/images/bhavaka\ logo.png);
+.bg{
+  background-color: #9c9c9c;
 }
 .size{
   height: inherit;
